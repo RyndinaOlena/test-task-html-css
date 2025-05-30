@@ -1,10 +1,10 @@
-@import url(style/reset.css);
-@import url(style/hero.css);
-@import url(/style/header.css);
-@import url(/style/payment_block.css);
-@import url(/style/questions.css);
-@import url(/style/footer.css);
-@import url(/style/modal.css);
+@import url(./style/reset.css);
+@import url(./style/hero.css);
+@import url(./style/header.css);
+@import url(./style/payment_block.css);
+@import url(./style/questions.css);
+@import url(./style/footer.css);
+@import url(./style/modal.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 

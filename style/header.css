@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lusitana:wght@400;700&family=Nanum+Gothic&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.header_section {
+  padding-top: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.header_logo:hover {
+  transform: scale(1.2);
+}
+
+.header_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition:
+    background-color 0.6s ease 0.1s,
+    color 0.6s ease 0.1s,
+    padding 0.6s ease 0.1s;
+}
+
+.header_btn:hover {
+  background-color: rgba(191, 175, 242, 1);
+  color: black;
+  padding: 9px 61px;
+}
+
+@media (max-width: 460px) {
+  .header_btn {
+    display: none;
+  }
+}
+
+.burger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.burger-btn span {
+  display: block;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+@media (min-width: 461px) {
+  .btn {
+    display: inline-block;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+}
